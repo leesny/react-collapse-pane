@@ -1,7 +1,8 @@
+import React, { useState } from 'react';
 import 'promise-polyfill/src/polyfill';
 import 'unfetch/polyfill';
 import 'abortcontroller-polyfill';
-import React, { useState } from 'react';
+
 import { Pane } from '../Pane';
 import { Resizer } from '../Resizer';
 import { useSplitPaneResize } from './hooks/useSplitPaneResize';

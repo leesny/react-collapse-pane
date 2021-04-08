@@ -1,6 +1,3 @@
-import 'promise-polyfill/src/polyfill';
-import 'unfetch/polyfill';
-import 'abortcontroller-polyfill';
 import React, { useState } from 'react';
 import { Pane } from '../Pane';
 import { Resizer } from '../Resizer';
@@ -13,7 +10,6 @@ import { useGetIsPaneCollapsed } from './hooks/callbacks/useGetIsCollapsed';
 import { useIsLtr } from './hooks/memos/useIsLtr';
 import { useCollapsedSizes } from './hooks/memos/useCollapsedSizes';
 import { Nullable } from '../../types/utilities';
-
 
 export type SplitType = 'horizontal' | 'vertical';
 export type Direction = 'ltr' | 'rtl';

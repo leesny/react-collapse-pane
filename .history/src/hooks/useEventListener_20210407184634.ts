@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 
-const AbortController = window.AbortController;
 export function useEventListener<K extends keyof WindowEventMap>(
   type: K,
   listener?: (this: Window, ev: WindowEventMap[K]) => void
